@@ -73,11 +73,12 @@ img {
 }
 
 
-/* RESPONSIVE */
+/* RESPONSIVE MOBILE */
 
 @media screen and (max-width: 419px) {
 
 /* Fix Scrolling Width */
+
   .row {
     width: 100%;
   }
@@ -94,5 +95,17 @@ img {
 
 /* Fix "#steps" rows */
 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left img {
+    width: 100%;
+    object-fit: contain;
+  }
 
 }
