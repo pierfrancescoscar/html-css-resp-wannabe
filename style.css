@@ -77,10 +77,51 @@ img {
 
 @media screen and (max-width: 419px) {
 
+/* General Spacing Between Blocks */
+
+  #lezioni {
+    padding: 25px;
+}
+
+  #lezioni .left {
+    margin-bottom: 25px;
+  }
+
+  #lezioni .right {
+    margin-bottom: 25px;
+  }
+
+  #steps {
+    padding: 25px;
+  }
+
+  #steps img {
+    padding-top: 25px;
+  }
+
+  #steps .right {
+    padding-bottom: 25px;
+  }
+
+  #why h1 {
+    padding-top: 25px;
+  }
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 25px;
+}
+
+  #why .row>.third {
+    padding-bottom: 25px;
+  }
+
 /* Fix Scrolling Width */
 
   .row {
     width: 100%;
+    margin-top: 25px;
   }
 
 /* Fix "#lezioni" rows */
