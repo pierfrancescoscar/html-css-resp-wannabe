@@ -150,3 +150,47 @@ img {
   }
 
 }
+
+/* RESPONSIVE TABLET */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  #lezioni {
+    padding: 25px;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  #lezioni .left {
+    width: 50%;
+  }
+
+  #lezioni .right {
+    width: 50%;
+    }
+
+  /* Space Between Blocks */
+
+  #steps {
+    padding: 25px;
+  }
+
+  #why {
+    padding: 25px;
+  }
+
+  #why .first {
+    margin-top: 25px;
+
+  }
+
+  #why .third {
+    padding-bottom: 25px;
+  }
+
+}
+
+
